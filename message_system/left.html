@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>侧边栏</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          1.数据处理
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          <a href="list.php" target="show_right">1.1数据删除</a><br />
+          <a href="list.php" target="show_right">1.2数据修改</a><br />
+          <a href="add.php" target="show_right">1.3数据添加</a><br />
+          <a href="pages_2.php" target="show_right">1.4数据显示</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        2.我爱评论
+      </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          <a href="post.html" target="show_right">2.1发表评论</a><br />
+          <a href="display.php" target="show_right">2.2查看评论</a><br />
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          3.系统问题
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          <a href="">3.1安装常见问题</a><br />
+          <a href="">3.2系统升级问题</a><br />
+          <a href="">3.3运行环境配置</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          4.管理后台
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          <a href="">4.1系统设置</a><br />
+          <a href="">4.2系统管理</a><br />
+          <a href="">4.3内容管理</a><br />
+          <a href="">4.4互动管理</a><br />
+          <a href="">4.5广告管理</a><br />
+          <a href="">4.6会员管理</a><br />
+          <a href="">4.7网站优化</a><br />
+          <a href="">4.8插件管理</a><br />
+          <a href="">4.9App管理</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          5.会员后台
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          <a href="">5.1后台首页</a><br />
+          <a href="">5.2内容管理</a><br />
+          <a href="">5.3修改密码</a><br />
+          <a href="">5.4退出系统</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          6.常见问题
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          <a href="">6.1待更新...</a><br />
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+</body>
+</html>
